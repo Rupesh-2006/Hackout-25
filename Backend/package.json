@@ -2,12 +2,19 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend for hackout_25",
+  "types": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": ["javascript","backend"],
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
